@@ -1,3 +1,3 @@
 # Kakao
  
-Kakao Destop App Clone now
+Kakao Destop App Clone

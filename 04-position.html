@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="myHtml">
+    <title>position Example</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 400%;
+            background-color: gold;
+        }
+
+        /* Position Fixed
+        #boxOne {
+            background-color: green;
+            width: 300px;
+            height: 300px;
+            position: static;
+        }
+
+        #boxTwo {
+            background-color: red;
+            width: 100%;
+            height: 300px;
+            position: fixed;
+            bottom: 30px;
+            left: 0;
+        } */
+        .abs-box {
+            width: 400px;
+            height: 400px;
+            background-color: indigo;
+            position: relative;
+        }
+
+        .abs-child {
+            width: 100px;
+            height: 100px;
+            background-color: lemonchiffon;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    </style>
+    <!--css적용-->
+</head>
+
+<body>
+    <div class="abs-box">
+        <div class="abs-child"></div>
+    </div>
+    <div id="boxOne">
+        <div class="child-box"></div>
+    </div>
+    <div id="boxTwo">
+        <div class="child-box"></div>
+    </div>
+</body>
+
+</html>

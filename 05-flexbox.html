@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="myHtml">
+    <title>flexbox Example</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        /* flew-flow: flex-direction, flex-wrap 결합
+         align-content:블록들이 두 줄이상일 때 */
+        .father {
+            display: flex;
+            justify-content: stretch;
+            align-items: flex-start;
+            height: 100%;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            display: flex;
+            background-color: hotpink;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    <!--css적용-->
+</head>
+
+<body>
+    <div class="father">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+    </div>
+</body>
+
+</html>
