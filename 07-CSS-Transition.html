@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="myHtml">
+    <title>CSS transition</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        .content {
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .box {
+            display: flex;
+            background-color: green;
+            font-size: 40px;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+        }
+
+        .content:hover {
+            margin-right: 500px;
+            color: white;
+        }
+    </style>
+    <!--css적용-->
+</head>
+
+<body>
+    <div class="content">
+        <div class="box">
+            text
+        </div>
+    </div>
+
+</body>
+
+</html>

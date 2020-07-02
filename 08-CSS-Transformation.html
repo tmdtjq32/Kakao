@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="myHtml">
+    <title>CSS transformation</title>
+    <style>
+        .box {
+            transition: all 0.5s ease-in-out;
+            background-color: gold;
+            width: 500px;
+            height: 500px;
+        }
+
+        .box:hover {
+            transform: rotate(20deg) scale(.5, .5) translate(50%, 50%) skewX(30deg);
+        }
+    </style>
+    <!--css적용-->
+</head>
+
+<body>
+    <div class="box"></div>
+
+</body>
+
+</html>

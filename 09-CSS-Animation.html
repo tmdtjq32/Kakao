@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="myHtml">
+    <title>CSS Animation</title>
+    <style>
+        .box {
+            background-color: gold;
+            width: 100px;
+            height: 100px;
+            animation: 1.5s RotateAndScaleSquare infinite ease-in-out;
+        }
+
+        /* @keyframes RotateAndScaleSquare {
+            from{
+
+            }
+
+            to {
+
+            }
+        } */
+        @keyframes RotateAndScaleSquare {
+            0% {
+                transform: none;
+            }
+
+            50% {
+                transform: rotate(1turn) scale(.5, .5);
+                background-color: plum;
+            }
+
+            100% {
+                transform: none;
+
+            }
+        }
+    </style>
+    <!--css적용-->
+</head>
+
+<body>
+    <div class="box"></div>
+
+</body>
+
+</html>
