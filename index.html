@@ -39,21 +39,25 @@
     </header>
     <Main class="chats">
         <ul class="chats_list">
-            <li class="chats_chat">
+            <li class="chats_chat chat">
                 <a href="chat.html">
-                    <div class="chat_column">
-                        <img class="chat_avatar g-avatar" src="images/avatar.jpg" />
-                        <div class="chat_content">
-                            <span class="chat_username">
-                                Lynn
-                            </span>
-                            <span class="chat_preview">
-                                Going home
+                    <div class="chats_chat friend friend--lg">
+                        <div class="friend_column">
+                            <img src="images/avatar.JPG" class="m-avatar friend_avatar" />
+                            <div class="friend_content">
+                                <span class="friend_name">
+                                    Lynn
+                                </span>
+                                <span class="friend_bottom-text">
+                                    Going Home
+                                </span>
+                            </div>
+                        </div>
+                        <div class="friend_column">
+                            <span class="chat_timestamp">
+                                Yesterday
                             </span>
                         </div>
-                    </div>
-                    <div class="chat_column">
-                        <span class="chat_timestamp">yesterday</span>
                     </div>
                 </a>
             </li>
@@ -74,13 +78,15 @@
     <nav class="nav">
         <ul class="nav_list">
             <li class="nav_list-item"><a href="friends.html" class="nav_list-link">
-                    <i class="far fa-user fa-3x"></i></a></li>
+                    <i class="far fa-user"></i></a></li>
             <li class="nav_list-item"><a href="index.html" class="nav_list-link">
-                    <i class="fas fa-comment fa-3x"></i></a></li>
+                    <div class="nav_badge">8</div>
+                    <i class="fas fa-comment"></i>
+                </a></li>
             <li class="nav_list-item"><a href="find.html" class="nav_list-link">
-                    <i class="fas fa-search fa-3x"></i></a></li>
+                    <i class="fas fa-search"></i></a></li>
             <li class="nav_list-item"><a href="more.html" class="nav_list-link">
-                    <i class="fas fa-ellipsis-h fa-3x"></i></a></li>
+                    <i class="fas fa-ellipsis-h"></i></a></li>
         </ul>
     </nav>
 </body>

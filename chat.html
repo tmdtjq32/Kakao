@@ -8,58 +8,94 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body>
-    <div class="status-bar">
-        <div class="status-bar_column">
-            <span class="status-bar_clock">13:54</span>
-        </div>
-        <div class="status-bar_column">
-            <i class="far fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar_battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
-        </div>
-    </div>
-    <header class="header">
-        <div class="header_header-column">
-            <div class="header_back-btn">
-                <a href="index.html">
-                    <i class="fas fa-arrow-left"></i>
-                </a>
+<body class="chats_body">
+    <div class="head-wrapper">
+        <div class="status-bar">
+            <div class="status-bar_column">
+                <span class="status-bar_clock">13:54</span>
             </div>
-            <h1 class="header_title">Best friend</h1>
+            <div class="status-bar_column">
+                <i class="far fa-clock"></i>
+                <i class="fas fa-volume-mute"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar_battery-level">100%</span>
+                <i class="fas fa-battery-full"></i>
+            </div>
         </div>
-        <div class="header_header-column">
-            <span class="header_icon">
-                <i class="fas fa-search"></i>
-            </span>
-            <span class="header_icon">
-                <i class="fas fa-bars"></i>
-            </span>
-        </div>
-    </header>
-    <main class="chat">
-        <ul class="char_messages">
+        <header class="header">
+            <div class="header_header-column">
+                <div class="header_back-btn">
+                    <a href="index.html">
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+                <h1 class="header_title">Best friend</h1>
+            </div>
+            <div class="header_header-column">
+                <span class="header_icon">
+                    <i class="fas fa-search"></i>
+                </span>
+                <span class="header_icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+        </header>
+    </div>
+    <main class="chat-screen">
+        <ul class="chat_messages">
             <span class="chat_timestamp">Friday, July 02, 2020</span>
             <li class="incoming_message message">
-                <img src="images/avatar.JPG" class="g-avatar message_avatar" />
+                <img src="images/avatar.JPG" class="m-avatar message_avatar" />
                 <div class="message_content">
                     <span class="message_author">
                         Best friend
                     </span>
-                    <div class="message_bubble">
+                    <span class="message_bubble">
                         내일 저녁 무엇
-                    </div>
-                    <span class="message_timestamp"></span>
+                    </span>
+                </div>
+            </li>
+            <li class="sent_message message">
+                <div class="message_content">
+                    <span class="message_bubble">
+                        떡볶이 ㄱㄱ
+                    </span>
                 </div>
             </li>
             <li class="incoming_message message">
-                <span class="message_timestamp"></span>
+                <img src="images/avatar.JPG" class="m-avatar message_avatar" />
                 <div class="message_content">
-                    <div class="message_bubble">
-                        떡볶이 ㄱㄱ
-                    </div>
+                    <span class="message_author">
+                        Best friend
+                    </span>
+                    <span class="message_bubble">
+                        부찌가시죠 ㅎㅎ
+                    </span>
+                </div>
+            </li>
+            <li class="sent_message message">
+                <div class="message_content">
+                    <span class="message_bubble">
+                        응 아니야~
+                    </span>
+                </div>
+            </li>
+            <li class="incoming_message message">
+                <img src="images/avatar.JPG" class="m-avatar message_avatar" />
+                <div class="message_content">
+                    <span class="message_author">
+                        Best friend
+                    </span>
+                    <span class="message_bubble">
+                        ㅇㅋ
+                    </span>
+                </div>
+            </li>
+            <li class="sent_message message">
+                <div class="message_content">
+                    <span class="message_bubble">
+                        ㅇㄷ?
+                    </span>
                 </div>
             </li>
         </ul>
